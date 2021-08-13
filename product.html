@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css" />
-
-    <title>Manifesto Coffee</title>
+    <title>Manifesto Coffee | Shop</title>
   </head>
   <body style="margin-top: 65px">
-    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow" style="margin-top: 15">
       <div class="container">
         <a class="navbar-brand" href="#">
@@ -24,10 +23,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="/index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/product.html">Shop</a>
+              <a class="nav-link active" href="/product.html">Shop</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
@@ -58,80 +57,24 @@
       </div>
     </nav>
 
-    <!-- view promo -->
-
-    <div id="carouselExampleIndicators" class="carousel slide banner-promo" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active banner-img">
-          <img src="/asssets/img/banner1.jpg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item banner-img">
-          <img src="/asssets/img/banner2.jpg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item banner-img">
-          <img src="/asssets/img/banner3.jpg" class="d-block w-100" alt="..." />
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-    <!-- Fitur -->
-    <div class="container services">
-      <div class="row text-center">
-        <div class="col">
-          <div class="shipping rounded-circle ms-auto me-auto">
-            <i class="fas fa-truck fa-2x"></i>
-          </div>
-          <h5 class="text-uppercase fw-bold">bebas ongkir</h5>
-          <p class="text-uppercase">bebas ongkir untuk pembelian diatas 100rb</p>
-        </div>
-        <div class="col-md">
-          <div class="shipping rounded-circle ms-auto me-auto">
-            <i class="fas fa-check-square fa-2x"></i>
-          </div>
-          <h5 class="text-uppercase fw-bold">kualitas tebaik</h5>
-          <p class="text-uppercase">dipilih dari biji kopi terbaik</p>
-        </div>
-        <div class="col-md">
-          <div class="shipping rounded-circle ms-auto me-auto">
-            <i class="fas fa-globe fa-2x"></i>
-          </div>
-          <h5 class="text-uppercase fw-bold">pelayanan</h5>
-          <p class="text-uppercase">24 jam pelayanan online</p>
-        </div>
+    <!-- Banner -->
+    <div class="banner">
+      <div class="container txt-banner">
+        <h1 class="text-center shadow text-uppercase">Produk</h1>
       </div>
     </div>
 
-    <!-- Kategori -->
-    <div class="container kategori">
-      <h2 class="text-center fw-bold" style="margin-bottom: 40px">Kategori</h2>
-      <div class="row">
-        <div class="col">
-          <div class="item k1 d-flex align-items-end ms-auto me-auto shadow">
-            <div class="badge text-wrap txt" style="width: 6rem">Biji kopi</div>
-          </div>
+    <!-- Fliter -->
+    <div class="container filter">
+      <div class="row text-center filter-row text-uppercase">
+        <div class="offset-md-3 col-md-2 d-block align-self-center">
+          <p class="badge text-wrap txt" style="font-size: 16px; padding: 15px">Biji Kopi</p>
         </div>
-        <div class="col">
-          <div class="item k2 d-flex align-items-end ms-auto me-auto shadow">
-            <div class="badge text-wrap txt" style="width: 6rem">Bubuk kopi</div>
-          </div>
+        <div class="col-md-2 d-block align-self-center">
+          <p>Bubuk Kopi</p>
         </div>
-        <div class="col">
-          <div class="item k3 d-flex align-items-end ms-auto me-auto shadow">
-            <div class="badge text-wrap txt" style="width: 6rem">Mesin kopi</div>
-          </div>
+        <div class="col-md-2 d-block align-self-center">
+          <p>Mesin Kopi</p>
         </div>
       </div>
     </div>
@@ -266,6 +209,168 @@
             <img class="mx-auto d-block" src="/asssets/img/produk.jpg" alt="" />
             <div class="text">
               <h5 class="text-center text-uppercase fw-bold">Robusta belawan</h5>
+              <h6 class="text-center">Rp. 20.000</h6>
+              <div class="bottom-area">
+                <div class="row align-items-center my-auto">
+                  <div class="col">
+                    <a href="">
+                      <div class="rounded-circle op-item mx-auto text-center" href="">
+                        <span style="color: white">
+                          <i class="fas fa-money-bill-wave fa-sm"></i>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="">
+                      <div class="rounded-circle op-item mx-auto text-center" href="">
+                        <span style="color: white">
+                          <i class="fas fa-shopping-cart fa-sm"></i>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="">
+                      <div class="rounded-circle op-item mx-auto text-center" href="">
+                        <span style="color: white">
+                          <i class="fas fa-heart fa-sm"></i>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 40px">
+        <div class="col">
+          <div class="produk-item mx-auto">
+            <img class="mx-auto d-block" src="/asssets/img/produk.jpg" alt="" />
+            <div class="text">
+              <h5 class="text-center text-uppercase fw-bold">robusta super</h5>
+              <h6 class="text-center">Rp. 20.000</h6>
+              <div class="bottom-area">
+                <div class="row align-items-center my-auto">
+                  <div class="col">
+                    <a href="">
+                      <div class="rounded-circle op-item mx-auto text-center" href="">
+                        <span style="color: white">
+                          <i class="fas fa-money-bill-wave fa-sm"></i>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="">
+                      <div class="rounded-circle op-item mx-auto text-center" href="">
+                        <span style="color: white">
+                          <i class="fas fa-shopping-cart fa-sm"></i>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="">
+                      <div class="rounded-circle op-item mx-auto text-center" href="">
+                        <span style="color: white">
+                          <i class="fas fa-heart fa-sm"></i>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="produk-item mx-auto">
+            <img class="mx-auto d-block" src="/asssets/img/produk.jpg" alt="" />
+            <div class="text">
+              <h5 class="text-center text-uppercase fw-bold">jember</h5>
+              <h6 class="text-center">Rp. 20.000</h6>
+              <div class="bottom-area">
+                <div class="row align-items-center my-auto">
+                  <div class="col">
+                    <a href="">
+                      <div class="rounded-circle op-item mx-auto text-center" href="">
+                        <span style="color: white">
+                          <i class="fas fa-money-bill-wave fa-sm"></i>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="">
+                      <div class="rounded-circle op-item mx-auto text-center" href="">
+                        <span style="color: white">
+                          <i class="fas fa-shopping-cart fa-sm"></i>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="">
+                      <div class="rounded-circle op-item mx-auto text-center" href="">
+                        <span style="color: white">
+                          <i class="fas fa-heart fa-sm"></i>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="produk-item mx-auto">
+            <img class="mx-auto d-block" src="/asssets/img/produk.jpg" alt="" />
+            <div class="text">
+              <h5 class="text-center text-uppercase fw-bold">tulungagung</h5>
+              <h6 class="text-center">Rp. 20.000</h6>
+              <div class="bottom-area">
+                <div class="row align-items-center my-auto">
+                  <div class="col">
+                    <a href="">
+                      <div class="rounded-circle op-item mx-auto text-center" href="">
+                        <span style="color: white">
+                          <i class="fas fa-money-bill-wave fa-sm"></i>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="">
+                      <div class="rounded-circle op-item mx-auto text-center" href="">
+                        <span style="color: white">
+                          <i class="fas fa-shopping-cart fa-sm"></i>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="">
+                      <div class="rounded-circle op-item mx-auto text-center" href="">
+                        <span style="color: white">
+                          <i class="fas fa-heart fa-sm"></i>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="produk-item mx-auto">
+            <img class="mx-auto d-block" src="/asssets/img/produk.jpg" alt="" />
+            <div class="text">
+              <h5 class="text-center text-uppercase fw-bold">lampung</h5>
               <h6 class="text-center">Rp. 20.000</h6>
               <div class="bottom-area">
                 <div class="row align-items-center my-auto">
