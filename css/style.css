@@ -224,3 +224,93 @@ body {
 .filter-row .col-md-2 {
   cursor: pointer;
 }
+
+
+/* ***************************** Product Details *************************** */
+
+.details{
+  padding: 80px;
+}
+
+.picture .container{
+  padding: 20px;
+}
+
+
+.detail-text h1 {
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+.detail-text h2 {
+  margin: 30px;
+  font-size: 40px;
+  color: #c49b63;
+}
+
+.detail-text p {
+  margin: 30px;
+  margin-bottom: 50px;
+  font-size: 17px;
+}
+
+.box {
+  top: 50%;
+  left: 50%;
+  transform: translate(50%,-50%);
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 5px;
+
+}
+
+.btn-add {
+  background-color: #c49b63;
+  color: white;
+}
+
+.availability {
+  border-top: 1px solid rgba(128, 128, 128, 0.712);
+  margin-top: 50px;
+}
+.availability h1 {
+  margin: 5px;
+  font-size: 20px;
+}
+
+.availability p {
+  margin: 5px;
+  font-size: 20px;
+  color: #0000007a;
+}
+
+.descrioption h1 {
+  border-top: 1px solid rgba(128, 128, 128, 0.712);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 26px;
+}
+
+.descrioption h2 {
+  margin: 20px;
+  font-size: 18px;
+}
+
+.descrioption p {
+  margin: 20px;
+  font-size: 18px;
+}
+
+.related h1 {
+  margin: 50px;
+  font-size: 26px;
+}
+
+.produk h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 26px;
+}
