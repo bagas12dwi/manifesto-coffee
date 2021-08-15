@@ -188,6 +188,35 @@ body {
   transition: 0.7s;
 }
 
+.total-harga {
+  padding: 20px;
+}
+
+.modal-cart input {
+  width: 50px !important;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 5px !important;
+}
+
+.modal-cart .box {
+  margin-bottom: 10px;
+}
+
+.modal-cart .box button {
+  background-color: #c49b63;
+  color: white;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.modal-cart .box button:hover {
+  background-color: #c49b63;
+}
+
 /* ***************************** bagian Product.html *************************** */
 .banner {
   width: 100%;
@@ -223,4 +252,28 @@ body {
 
 .filter-row .col-md-2 {
   cursor: pointer;
+}
+
+/* **************** Bagian About US ************************* */
+
+.content-img {
+  height: 585px;
+  width: 475px;
+  overflow: hidden;
+}
+
+.content-text {
+  padding: 40px;
+}
+
+/* ********************* Bagian Whistlist.html ************************ */
+.content-whistlist {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.table-whistlist {
+  background-color: #c49b63;
+  color: white;
+  outline: none;
 }
