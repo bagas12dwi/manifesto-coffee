@@ -254,7 +254,6 @@ body {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
 /* **************** Bagian About US ************************* */
 
 .content-img {
@@ -278,18 +277,16 @@ body {
   color: white;
   outline: none;
 }
-=======
 
 /* ***************************** Product Details *************************** */
 
-.details{
+.details {
   padding: 80px;
 }
 
-.picture .container{
+.picture .container {
   padding: 20px;
 }
-
 
 .detail-text h1 {
   margin-left: 30px;
@@ -308,22 +305,16 @@ body {
   font-size: 17px;
 }
 
-.box {
-  top: 50%;
-  left: 50%;
-  transform: translate(50%,-50%);
-}
-
 input {
   border: none;
   outline: none;
   padding: 5px;
-
 }
 
 .btn-add {
   background-color: #c49b63;
   color: white;
+  width: 100%;
 }
 
 .availability {
@@ -368,4 +359,20 @@ input {
   margin-bottom: 50px;
   font-size: 26px;
 }
->>>>>>> 66f673b0d0a641fee404ded4dcf90f0b31c15d1a
+
+.detail-text .box button {
+  background-color: #c49b63;
+  color: white;
+  padding: 0 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.detail-text .box button:hover {
+  background-color: #c49b63;
+}
+
+.detail-text .box {
+  width: 100%;
+}
