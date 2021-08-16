@@ -283,10 +283,13 @@ body {
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 .content-produk {
   margin-top: 100px;
 }
 
+=======
+>>>>>>> 2fdf4a36e66a51e98133745108dd9ce513d424f8
 /* **************** Bagian About US ************************* */
 
 .content-img {
@@ -409,6 +412,7 @@ input {
 .detail-text .box {
   width: 100%;
 }
+<<<<<<< HEAD
 
 /* ************ set responsive ************ */
 
@@ -623,3 +627,5 @@ input {
     padding: 12% 0;
   }
 }
+=======
+>>>>>>> 2fdf4a36e66a51e98133745108dd9ce513d424f8
