@@ -48,6 +48,25 @@
                 <li><a class="dropdown-item" href="/daftar-transaksi"><i class="fas fa-tasks fa-sm me-2"></i></i>Daftar Transaksi</a></li>
                 <li>
                   <hr class="dropdown-divider">
+              @auth
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fas fa-user-circle fa-lg me-2"></i>
+                    <span>{{ auth()->user()->username }}</span>
+                  </a>
+                  <ul class="dropdown-menu ms-auto mb-2 mb-lg-0" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="/daftar-transaksi"><i class="fas fa-tasks fa-sm me-2"></i></i>Daftar Transaksi</a></li>
+                    {{-- <li><a class="dropdown-item" href="/profil"><i class="fas fa-user-circle fa-sm me-2"></i></i>Profil</a></li> --}}
+                    <li><hr class="dropdown-divider"></li>
+                    <li>
+                      <form action="/logout" method="POST">
+                        @csrf
+                        <button type="submit" class="dropdown-item">
+                          <i class="fas fa-sign-out-alt fa-sm me-2"></i>Logout
+                        </button>
+                      </form>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <form action="/logout" method="POST">

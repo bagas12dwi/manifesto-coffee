@@ -66,24 +66,24 @@
                 <h6>Surabaya, Indonesia</h6>
               </div>
             </div>
-          </div>
-          <div>
-            <div class="row">
-              <div class="col-md-1">
-                <i class="fab fa-whatsapp my-2"></i>
-              </div>
-              <div class="col-md-10 d-flex align-items-center">
-                <h6>082939329323</h6>
+            <div>
+              <div class="row">
+                <div class="col-md-1">
+                  <i class="fab fa-whatsapp my-2"></i>
+                </div>
+                <div class="col-md-10 d-flex align-items-center">
+                  <h6>081246504639</h6>
+                </div>
               </div>
             </div>
-          </div>
-          <div>
-            <div class="row">
-              <div class="col-md-1">
-                <i class="fas fa-envelope my-2"></i>
-              </div>
-              <div class="col-md-10 d-flex align-items-center">
-                <h6>abcd@gmail.com</h6>
+            <div>
+              <div class="row">
+                <div class="col-md-1">
+                  <i class="fas fa-envelope my-2"></i>
+                </div>
+                <div class="col-md-10 d-flex align-items-center">
+                  <h6>manifestocoffee2@gmail.com</h6>
+                </div>
               </div>
             </div>
           </div>

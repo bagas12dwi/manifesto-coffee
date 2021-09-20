@@ -42,18 +42,20 @@
           <div class="form-floating">
             <input type="password" name="password" class="form-control @error('password')
                     is-invalid                        
-                    @enderror" id="password" placeholder="Password" required>
-            <label for="password">Password</label>
-            @error('password')
-            <div class="invalid-feedback">
-              {{ $message }}
-            </div>
-            @enderror
-          </div>
-          <button class="w-100 btn btn-lg search-btn my-3" type="submit">Login</button>
-        </form>
-        <small class="d-block text-center">Belum Punya Akun? <a href="/register">Daftar Sekarang</a> </small>
-      </main>
+                    @enderror"  id="password" placeholder="Password" required>
+                    <label for="password">Password</label>
+                    @error('password')
+                        <div class="invalid-feedback">
+                            {{ $message }}
+                        </div>
+                    @enderror
+                  </div>
+                  <button class="w-100 btn btn-lg search-btn my-3" type="submit">Login</button>
+                </form>
+                <a href="{{ route('google.login') }}" class="w-100 btn btn-lg mb-3 btn-outline-danger"><i class="fab fa-google fa-md me-2"></i>Masuk dengan akun Google</a>
+                <small class="d-block text-center">Belum Punya Akun? <a href="/register">Daftar Sekarang</a> </small>
+            </main>
+        </div>
     </div>
   </div>
 </div>
