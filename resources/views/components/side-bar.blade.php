@@ -5,11 +5,11 @@
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon">
                     <i>
-            <img src="/asssets/img/logo-admin.png" alt="" height="40" />
+                        <img src="/asssets/img/ori-white.png" alt="" height="40" />
 
                     </i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Manifesto Admin</div>
+                <div class="sidebar-brand-text mx-3">Koepilihanku Admin</div>
             </a>
 
             <!-- Divider -->
